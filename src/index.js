@@ -12,17 +12,17 @@ import merge from "lodash.merge";
 import isElectron from 'is-electron';
 
 const COMMON_LOCALE_DATA_URLS = {
-  en: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/en.js",
-  zh: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/zh.js",
-  fr: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/fr.js",
-  ja: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ja.js",
-  de: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/de.js",
-  es: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/es.js",
-  ko: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ko.js",
-  pt: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/pt.js",
-  it: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/it.js",
-  ru: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ru.js",
-  pl: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/pl.js",
+  en: "http://localhost:3000/locales/en.js",
+  // zh: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/zh.js",
+  // fr: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/fr.js",
+  // ja: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ja.js",
+  // de: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/de.js",
+  // es: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/es.js",
+  // ko: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ko.js",
+  // pt: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/pt.js",
+  // it: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/it.js",
+  // ru: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ru.js",
+  pl: "http://localhost:3000/locales/pl.js",
 };
 
 
